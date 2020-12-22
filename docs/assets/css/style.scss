@@ -7,7 +7,12 @@
 html {
   background: #e4e2e0;
   color: #2e2c2a;
-  font-size: min(calc(50% + 2vh), calc(75% + 0.75vw));
+  font-size: max(14px, min(24px, calc(25% + 2.5vh), calc(40% + 3vw)));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  min-height: -webkit-fill-available;
 }
 @media (prefers-color-scheme: dark) {
   html {
@@ -23,10 +28,7 @@ body {
   font-family: "Encode Sans", sans-serif;
   font-size: 1rem;
   color: inherit;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-grow: 1;
 }
 
 header,
