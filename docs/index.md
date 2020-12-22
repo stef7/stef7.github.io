@@ -5,12 +5,12 @@ description: Senior front-end developer in
 Melbourne, Australia
 ---
 
-![Stefano Perfili](sp.jpg)
+<div class="photo"><img src="sp.jpg" alt="Stefano Perfili" width="451" height="451" /></div>
 
-# Stefano Perfili
+<h1>Stefano Perfili</h1>
 
-Senior front-end developer,\
+Senior front-end developer\
 Melbourne, Australia
 
-* [LinkedIn](https://linkedin.com/in/stefanoperfili)
+* [LinkedIn](https://www.linkedin.com/in/stefanoperfili)
 * [GitHub](https://github.com/stef7)
