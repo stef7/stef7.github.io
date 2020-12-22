@@ -1,0 +1,37 @@
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+
+body {
+  text-align: center;
+  font-family: "Encode Sans", sans-serif;
+  color: #333;
+}
+
+header,
+footer {
+  display: none;
+}
+
+h1 {
+  font-size: 1.25em;
+}
+
+main {
+  width: min(90%, 80rem);
+  margin: auto;
+}
+
+a {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 16em;
+  border-radius: 16em;
+  vertical-align: bottom;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
