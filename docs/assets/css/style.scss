@@ -12,10 +12,29 @@ html {
   align-items: center;
   justify-content: center;
   min-height: 100%;
-  min-height: -moz-available;
   min-height: -webkit-fill-available;
   min-height: fill-available;
 }
+
+body {
+  text-align: center;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 1rem;
+  color: inherit;
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: underline;
+  display: inline-flex;
+  min-height: 44px;
+  min-width: 44px;
+  align-items: center;
+  justify-content: center;
+  text-decoration-thickness: 0.09em !important;
+  color: #1e6bb8;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     background: #1b1b1a;
@@ -24,13 +43,6 @@ html {
   a {
     color: #5ca0e4;
   }
-}
-body {
-  text-align: center;
-  font-family: "Encode Sans", sans-serif;
-  font-size: 1rem;
-  color: inherit;
-  flex-grow: 1;
 }
 
 header,
@@ -48,15 +60,6 @@ main {
   padding: .5em;
 }
 
-a {
-  text-decoration: underline;
-  display: inline-flex;
-  min-height: 44px;
-  min-width: 44px;
-  align-items: center;
-  justify-content: center;
-  text-decoration-thickness: 0.09em !important;
-}
 
 .photo {
   width: min(14rem, 100%, 451px);
