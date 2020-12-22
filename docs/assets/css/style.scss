@@ -12,7 +12,9 @@ html {
   align-items: center;
   justify-content: center;
   min-height: 100%;
+  min-height: -moz-available;
   min-height: -webkit-fill-available;
+  min-height: fill-available;
 }
 @media (prefers-color-scheme: dark) {
   html {
@@ -53,6 +55,7 @@ a {
   min-width: 44px;
   align-items: center;
   justify-content: center;
+  text-decoration-thickness: 0.09em !important;
 }
 
 .photo {
